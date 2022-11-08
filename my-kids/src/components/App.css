@@ -1,0 +1,27 @@
+*,
+*::before,
+::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+.App-flex{
+    display: flex   ;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 0 1em;
+}

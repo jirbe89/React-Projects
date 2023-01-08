@@ -1,0 +1,32 @@
+*,
+*::before,
+::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+
+.topMenu li a{
+    text-decoration: none;
+    color: rgb(160, 155, 150);
+}
+.rightTopMenu{
+    color: rgb(160, 155, 150);
+}
+.topMenuContainer{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 3px 0 3px rgb(80, 79, 76);
+}
+.active{
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: bold;
+}

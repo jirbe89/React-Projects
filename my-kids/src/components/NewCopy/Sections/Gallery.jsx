@@ -110,7 +110,7 @@ const Gallery = () => {
               $28.98
             </Button>
           </InsideDiv>
-          <Divider orientation='vertical' flexItem />
+          <Divider orientation='vertical' variant='middle' flexItem />
         </>
       ))}
     </Div>
